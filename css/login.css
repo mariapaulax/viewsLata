@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+font-family: Arial;
+padding: 0px 15px;
+background-color: paleturquoise;
+}
+
+.box_login{
+  width:500px ;
+  height: 500px;
+  background-color: rgb(50, 138, 138);
+  border:0;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.box_login .capa{
+    height: 230px;
+    background: url(../img/capa.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.box_login h1{
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    margin:15px 15px 20px 15px;
+    font-weight: bold;
+    border: 1px white solid;
+}
+
+form input{
+
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    padding: 10px 15px;
+    border:0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+form .btn-login{
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+    background: rgb(180, 40, 40);
+    color: white;
+    border:0;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.msg-error{
+    font-size:14px; color: white;
+    display: flex;
+    justify-content: center;
+}
